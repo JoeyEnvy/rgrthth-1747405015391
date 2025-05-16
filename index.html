@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ffdgrhgrehrt Restaurant | Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            color: #ffffff;
+            background-color: #333333;
+        }
+        header {
+            background: #444444;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 30px;
+            background: url('https://source.unsplash.com/1600x900/?restaurant') no-repeat center center/cover;
+            color: #ffffff;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .about, .services, .testimonials, .contact {
+            padding: 40px 20px;
+            margin: 20px 0;
+        }
+        .about {
+            background-color: #555555;
+        }
+        .services {
+            background-color: #444444;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .service-item {
+            background-color: #666666;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+        .testimonials {
+            background-color: #555555;
+        }
+        .contact {
+            background-color: #444444;
+            text-align: center;
+        }
+        footer {
+            background-color: #222222;
+            padding: 20px;
+            text-align: center;
+        }
+        .icon {
+            font-size: 1.5em;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-text {
+                max-width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ffdgrhgrehrt Restaurant</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to ffdgrhgrehrt</h2>
+            <p>Experience exquisite dining with a touch of traditional elegance.</p>
+            <button style="background-color: #888888; color: #ffffff; padding: 10px 20px; border: none; cursor: pointer;">Book a Table</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>"dsferg" is a culinary haven for those who appreciate the finer things in life. Our restaurant is dedicated to offering an exquisite dining experience, combining the delightful flavors of gourmet cuisine with an ambiance of sophistication and warmth. We cater to discerning diners who seek a harmonious blend of tradition and innovation.</p>
+        <p>Our mission is to deliver unparalleled service and culinary artistry that delights the senses and nourishes the soul. We welcome families, couples, and corporate guests to savor moments of pure gastronomic delight in our elegantly designed space.</p>
+        <ul>
+            <li>Exquisite gourmet dishes</li>
+            <li>Charming and intimate atmosphere</li>
+            <li>Professional and friendly service</li>
+            <li>Convenient online booking</li>
+            <li>Perfect for all occasions</li>
+        </ul>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <i class="fas fa-utensils icon"></i>
+            <h3>Fine Dining</h3>
+            <p>Experience culinary masterpieces crafted by our expert chefs.</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-wine-glass icon"></i>
+            <h3>Exclusive Wine Selection</h3>
+            <p>Choose from our curated selection of exquisite wines.</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-birthday-cake icon"></i>
+            <h3>Private Events</h3>
+            <p>Host your special occasions in our elegant private dining room.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>"The ambiance and food at ffdgrhgrehrt are simply unparalleled. A must-visit for any food enthusiast!"</blockquote>
+        <blockquote>"Excellent service and exquisite dishes. Truly a memorable dining experience."</blockquote>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><i class="fas fa-phone icon"></i> Call us at: (123) 456-7890</p>
+        <p><i class="fas fa-envelope icon"></i> Email: info@ffdgrhgrehrt.com</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 ffdgrhgrehrt Restaurant. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
